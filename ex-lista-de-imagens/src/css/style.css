@@ -1,0 +1,49 @@
+html {
+    font-family: 'Public sans', sans-serif;
+}
+
+
+main{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.quadros .quadro {
+    width: 335px;
+    height: 432px;
+    position: relative;
+}
+
+.quadros .quadro img {
+    width: 100%;
+
+}
+
+.quadros .quadro .informacoes {
+    position: absolute;
+    bottom: 40px;
+    left: 28px;
+    color: #ffffff;
+}
+
+
+.titulo {
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+.sub-titulo {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+@media(max-width: 1440px){
+    .quadros{
+        max-width: 900px;
+        margin: 30px 0;
+        gap: 1rem;
+    } 
+
+}

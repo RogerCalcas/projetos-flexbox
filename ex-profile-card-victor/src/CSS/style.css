@@ -1,0 +1,61 @@
+body {
+    background-color: var(--fundo-background);
+    font-family: 'kumbh sans', sans-serif;
+}
+
+hr{
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image {
+    display: inline;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.profile-card {
+    max-width: 350px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.name-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: var(--texto-profile-card);
+    padding: 15px;
+}
+
+.location {
+    color: var(--texto-profile-card);
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+.info-value {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-text {
+    display: flex;
+    justify-content: space-between;
+}
+
